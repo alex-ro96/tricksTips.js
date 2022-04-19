@@ -8,6 +8,10 @@ a = Math.floor(a);
 var a = Math.floor(Math.random() * 101); 
 
 console.log(a);
-console.log(a);
-console.log(a);
-console.log(a);
+
+//on peut créer un loop par exemple: 
+
+for (i = 0; i<5; i += 1) {
+    var x = Math.floor(Math.random() * 51);
+    console.log(x);
+}
